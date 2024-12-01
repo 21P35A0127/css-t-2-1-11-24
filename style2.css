@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+.it1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: t1;
+    animation-duration: 1.5s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes t1{
+    0%{
+    transform: translatey(10px);
+}
+  20%{
+    transform: translatey(-40px);
+   }
+}
+
+
+.it2{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: t2;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes t2{
+    0%{
+    transform: translatey(10px);
+}
+  20%{
+    transform: translatey(-40px);
+   }
+}
+
+
+.it3{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: t3;
+    animation-duration: 1.5s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes t3{
+    0%{
+    transform: translatey(10px);
+}
+  20%{
+    transform: translatey(-40px);
+   }
+}
+
+
+.it4{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: t4;
+    animation-duration: 1.5s;
+    animation-delay: 0.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes t4{
+    0%{
+    transform: translatey(10px);
+}
+  20%{
+    transform: translatey(-40px);
+   }
+}
+
+
